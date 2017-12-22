@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DropDownComponent } from '../components/drop-down/drop-down.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DropDownComponent
   ],
   imports: [
     BrowserModule

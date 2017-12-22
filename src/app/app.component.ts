@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  // tslint:disable-next-line:max-line-length
+  dropDownValues = [{ 'value': 'app', 'label': 'app' }, { 'value': 'code', 'label': 'code' }, { 'value': 'unit test', 'label': 'unit test' }];
+
+  action(selectedItem) {
+  }
 }
